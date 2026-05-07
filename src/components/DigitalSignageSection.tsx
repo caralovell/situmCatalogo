@@ -2,17 +2,17 @@ import { motion } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
 import cmsDashboard from "@/assets/dashboard-mockup.png";
 import player from "@/assets/android-media-player.jpg";
-import valenciaImg from "@/assets/1valencia.png";
-import squareImg from "@/assets/2squaree.png";
-import oneImg from "@/assets/3one.png";
-import totemMain from "@/assets/4window.png";
-import totem1 from "@/assets/5eco.png";
-import totem2 from "@/assets/6lite.png";
-import totem3 from "@/assets/7cubee.png";
-import totem4 from "@/assets/8crew.png";
-import totem5 from "@/assets/9posh.png";
-import cubeImg from "@/assets/10eye.png";
-import eyeImg from "@/assets/11touch.png";
+import valencia from "@/assets/1valencia.png";
+import square from "@/assets/2squaree.png";
+import one from "@/assets/3one.png";
+import window from "@/assets/4window.png";
+import eco from "@/assets/5eco.png";
+import lite from "@/assets/6lite.png";
+import cube from "@/assets/7cubee.png";
+import crew from "@/assets/8crew.png";
+import posh from "@/assets/9posh.png";
+import eye from "@/assets/10eye.png";
+import touch from "@/assets/11touch.png";
 import epaperDisplay from "@/assets/epaper-display.png";
 import tabletWallView from "@/assets/12wall.png";
 import tabletPortrait from "@/assets/12portrait.png";
@@ -22,7 +22,7 @@ import tubeImg from "@/assets/12tube.png";
 
 const catalogItems = [
   {
-    src: valenciaImg,
+    src: valencia,
     alt: "Tótem Valencia",
     title: "Tótem Valencia",
     description:
@@ -30,7 +30,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[480px] aspect-[4/5]",
   },
   {
-    src: squareImg,
+    src: square,
     alt: "Tótem Square",
     title: "Tótem Square",
     description:
@@ -38,7 +38,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[460px] aspect-[4/5]",
   },
   {
-    src: oneImg,
+    src: one,
     alt: "Tótem One",
     title: "Tótem One",
     description:
@@ -46,7 +46,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[420px] aspect-[3/4]",
   },
   {
-    src: totem2,
+    src: window,
     alt: "Tótem Window",
     title: "Tótem Window",
     description:
@@ -54,7 +54,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[480px] aspect-[4/5]",
   },
   {
-    src: totem1,
+    src: eco,
     alt: "Tótem Square Lite Eco",
     title: "Tótem Square Lite Eco",
     description:
@@ -62,7 +62,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[420px] aspect-[3/4]",
   },
   {
-    src: totemMain,
+    src: lite,
     alt: "Tótem Square Lite",
     title: "Tótem Square Lite",
     description:
@@ -70,7 +70,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[520px] aspect-[4/5]",
   },
   {
-    src: cubeImg,
+    src: cube,
     alt: "Kiosko Cube",
     title: "Kiosko Cube",
     description:
@@ -78,7 +78,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[400px] aspect-[3/4]",
   },
   {
-    src: totem5,
+    src: crew,
     alt: "Kiosko Crew",
     title: "Kiosko Crew",
     description:
@@ -86,7 +86,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[400px] aspect-[3/4]",
   },
   {
-    src: totem4,
+    src: posh,
     alt: "Kiosko Posh",
     title: "Kiosko Posh",
     description:
@@ -94,7 +94,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[460px] aspect-square",
   },
   {
-    src: eyeImg,
+    src: eye,
     alt: "Kiosko Eye",
     title: "Kiosko Eye",
     description:
@@ -102,7 +102,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[460px] aspect-[4/5]",
   },
   {
-    src: totem3,
+    src: touch,
     alt: "Kiosko Touch",
     title: "Kiosko Touch",
     description:
