@@ -30,13 +30,13 @@ const catalogItems = [
     sizeClass: "md:max-w-[480px] aspect-[4/5]",
   },
   {
-  src: squareImg,
-  alt: "Tótem Square",
-  title: "Tótem Square",
-  description: "...",
-  sizeClass: "md:max-w-[460px] aspect-[4/5]",
-  objectFit: "object-contain",  // ← añadir esta propiedad
-},
+    src: squareImg,
+    alt: "Tótem Square",
+    title: "Tótem Square",
+    description:
+      "Tótem portapantallas realizado con estructura perimetral soldada a base rectangular de acero. Acabado lacado en color a elegir.",
+    sizeClass: "md:max-w-[460px] aspect-[4/5]",
+  },
   {
     src: oneImg,
     alt: "Tótem One",
@@ -102,13 +102,13 @@ const catalogItems = [
     sizeClass: "md:max-w-[460px] aspect-[4/5]",
   },
   {
-  src: totem3,
-  alt: "Kiosko Touch",
-  title: "Kiosko Touch",
-  description: "...",
-  sizeClass: "md:max-w-[260px] aspect-[847/1857]",
-  objectFit: "object-contain",  // ← añadir
-},
+    src: totem3,
+    alt: "Kiosko Touch",
+    title: "Kiosko Touch",
+    description:
+      "Kiosco de suelo con pantalla inclinada para mejorar la visibilidad y la interacción. Robusto, estable y versátil, permite integrar periféricos y adaptarse a múltiples usos como gestión de turnos o consulta de servicios.",
+    sizeClass: "md:max-w-[300px] aspect-[847/1857]",
+  },
 ];
 
 const DigitalSignageSection = () => (
