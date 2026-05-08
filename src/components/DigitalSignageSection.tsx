@@ -11,7 +11,7 @@ import lite from "@/assets/6lite.png";
 import cube from "@/assets/7cubee.png";
 import crew from "@/assets/8crew.png";
 import posh from "@/assets/9posh.png";
-import eye from "@/assets/10eye.png";
+import eye from "@/assets/10eeyee.png";
 import touch from "@/assets/11touch.png";
 import epaperDisplay from "@/assets/epaper-display.png";
 import tabletWallView from "@/assets/12wall.png";
