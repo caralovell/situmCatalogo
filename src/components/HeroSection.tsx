@@ -63,23 +63,27 @@ const HeroSection = () => (
         </p>
       </motion.div>
 
-     {/* 5. Hero image */}
+     {/* 5. Featured product */}
 <motion.div
-  className="flex flex-col items-center gap-2"
   {...fadeUp(0.7)}
 >
-  <motion.div
-    className="relative rounded-2xl overflow-hidden shadow-2xl w-full max-w-[230px] aspect-square mx-auto"
-    whileHover={{ scale: 1.015 }}
-    transition={{ duration: 0.3 }}
-  >
-    <img src={hposh} alt="Kiosko Posh" className="w-full h-full object-cover" />
-    <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
-  </motion.div>
+  <div className="flex items-center gap-3 px-4 py-3 rounded-2xl border border-border/50 bg-card/40 backdrop-blur-sm">
+    <img
+      src={hposh}
+      alt="Kiosko Posh"
+      className="w-16 h-16 rounded-xl object-cover"
+    />
 
-  <p className="text-xs text-muted-foreground/60 italic">
-    Kiosko Posh
-  </p>
+    <div className="text-left">
+      <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground/60">
+        Producto destacado
+      </p>
+
+      <p className="text-sm font-medium text-foreground">
+        Kiosko Posh
+      </p>
+    </div>
+  </div>
 </motion.div>
 
       {/* 6. Scroll indicator */}
