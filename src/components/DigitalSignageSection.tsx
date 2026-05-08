@@ -107,7 +107,7 @@ const catalogItems = [
     title: "Kiosko Touch",
     description:
       "Kiosco de suelo con pantalla inclinada para mejorar la visibilidad y la interacción. Robusto, estable y versátil, permite integrar periféricos y adaptarse a múltiples usos como gestión de turnos o consulta de servicios.",
-    sizeClass: "md:max-w-[300px] aspect-[847/1857]",
+    sizeClass: "md:max-w-[460px] aspect-[4/5]",
   },
 ];
 
