@@ -69,7 +69,7 @@ const HeroSection = () => (
   {...fadeUp(0.7)}
 >
   <motion.div
-    className="relative rounded-2xl overflow-hidden shadow-2xl w-full max-w-[460px] aspect-square mx-auto"
+    className="relative rounded-2xl overflow-hidden shadow-2xl w-full max-w-[230px] aspect-square mx-auto"
     whileHover={{ scale: 1.015 }}
     transition={{ duration: 0.3 }}
   >
