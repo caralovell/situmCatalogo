@@ -67,23 +67,23 @@ const HeroSection = () => (
 <motion.div
   {...fadeUp(0.7)}
 >
-  <div className="flex items-center gap-3 px-4 py-3 rounded-2xl border border-border/50 bg-card/40 backdrop-blur-sm">
-    <img
-      src={hposh}
-      alt="Kiosko Posh"
-      className="w-16 h-16 rounded-xl object-cover"
-    />
+  <div className="flex items-center gap-4 px-5 py-4 rounded-2xl border border-border/50 bg-card/40 backdrop-blur-sm">
+  <img
+    src={hposh}
+    alt="Kiosko Posh"
+    className="w-20 h-24 rounded-xl object-cover object-center"
+  />
 
-    <div className="text-left">
-      <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground/60">
-        Producto destacado
-      </p>
+  <div className="text-left">
+    <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground/60">
+      Producto destacado
+    </p>
 
-      <p className="text-sm font-medium text-foreground">
-        Kiosko Posh
-      </p>
-    </div>
+    <p className="text-sm font-medium text-foreground">
+      Kiosko Posh
+    </p>
   </div>
+</div>
 </motion.div>
 
       {/* 6. Scroll indicator */}
