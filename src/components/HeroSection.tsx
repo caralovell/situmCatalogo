@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import LogopostLogo from "./LogopostLogo";
 import situm from "@/assets/situm.png";
+import hposh from "@/assets/hposh.png";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 16 },
@@ -62,13 +63,32 @@ const HeroSection = () => (
         </p>
       </motion.div>
 
-      {/* 5. Scroll indicator */}
-      <motion.div
-        className="mt-10 flex justify-center"
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.7, duration: 0.6 }}
-      >
+     {/* 5. Hero image */}
+<motion.div
+  className="flex flex-col items-center gap-2"
+  {...fadeUp(0.7)}
+>
+  <motion.div
+    className="relative rounded-2xl overflow-hidden shadow-2xl w-full max-w-[460px] aspect-square mx-auto"
+    whileHover={{ scale: 1.015 }}
+    transition={{ duration: 0.3 }}
+  >
+    <img src={hposh} alt="Kiosko Posh" className="w-full h-full object-cover" />
+    <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+  </motion.div>
+
+  <p className="text-xs text-muted-foreground/60 italic">
+    Kiosko Posh
+  </p>
+</motion.div>
+
+      {/* 6. Scroll indicator */}
+<motion.div
+  className="mt-4 flex justify-center"
+  initial={{ opacity: 0, y: 10 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.85, duration: 0.6 }}
+>
         <div className="w-6 h-10 rounded-full border-2 border-muted-foreground/30 flex justify-center pt-2">
           <motion.div
             animate={{ y: [0, 8, 0] }}
